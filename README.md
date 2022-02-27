@@ -12,12 +12,14 @@
 - Clone repo
     - ```git clone https://github.com/nlemeshko/forukraine```
     - ```cd forukraine```
-- Create file **keys.tfvars** and put some variables
+- Create file **keys.tfvars** and put some variables (example in keys.tfvars.example)
 
-- ```servers = 1``` - **How many servers need to create**
-- ```access = ""``` - **Your access_key**
-- ```secret = ""``` - **Your secret key**
-- ```address = "194.67.14.186:53/UDP"``` - **address which need to DDoS**
+| Variable   |      Key example      |  Description |
+|----------|:-------------:|------:|
+| servers |  1 | **How many servers need to create** |
+| access |    H7HJ644eHGYUYUYH3   |   **Your access_key** |
+| secret | j3h45kj3h45kj34h5kjh43 |    **Your secret key** |
+| address | 194.67.14.186:53/UDP |    **Address which need to DDoS** |
 
 - **run commands in terminal**:
     - ```terraform init```
