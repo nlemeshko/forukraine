@@ -25,5 +25,8 @@
     - ```terraform init```
     - ```terraform apply -var-file keys.tfvars -auto-approve```
 
+- **Destroy servers**:
+    - ```terraform destroy -var-file keys.tfvars -auto-approve```
+
 ## License
 ***Nicky Lemeshko*** [©mdsn](https://mdsn.tk) **2022**

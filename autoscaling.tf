@@ -13,6 +13,8 @@ resource "aws_launch_configuration" "ukraine-ddos" {
 
   spot_price    = "0.005"
 
+  #key_name = "ukraine" - If need connect to server
+
 
   user_data = data.template_file.init.rendered
 }
