@@ -14,10 +14,10 @@
     - ```cd forukraine```
 - Create file **keys.tfvars** and put some variables
 
-```servers = 1``` - **How many servers need to create**
-```access = ""``` - **Your access_key**
-```secret = ""``` - **Your secret key**
-```address = "194.67.14.186:53/UDP"``` - **address which need to DDoS**
+- ```servers = 1``` - **How many servers need to create**
+- ```access = ""``` - **Your access_key**
+- ```secret = ""``` - **Your secret key**
+- ```address = "194.67.14.186:53/UDP"``` - **address which need to DDoS**
 
 - **run commands in terminal**:
     - ```terraform init```
