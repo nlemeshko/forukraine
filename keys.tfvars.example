@@ -1,0 +1,4 @@
+servers = 1
+access = ""
+secret = ""
+address = "194.67.14.186:53/UDP"
